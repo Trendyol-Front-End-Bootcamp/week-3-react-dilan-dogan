@@ -38,7 +38,7 @@ function Search( props ) {
         search: ''
     });
 
-    const handleChange = (event) => {
+    const handleChangeCheckBoxInput = (event) => {
         setState({ ...state, [event.target.name]: event.target.checked });
     };
 
@@ -92,11 +92,11 @@ function Search( props ) {
                         <FormLabel >Gender:</FormLabel>
                         <FormGroup>
                             <FormControlLabel
-                                control={<Checkbox checked={female} onChange={handleChange} name="female" />}
+                                control={<Checkbox checked={female} onChange={handleChangeCheckBoxInput} name="female" />}
                                 label="Female"
                             />
                             <FormControlLabel
-                                control={<Checkbox checked={male} onChange={handleChange} name="male" />}
+                                control={<Checkbox checked={male} onChange={handleChangeCheckBoxInput} name="male" />}
                                 label="Male"
                             />
                         </FormGroup>
@@ -107,15 +107,15 @@ function Search( props ) {
                         <FormLabel>Status:</FormLabel>
                         <FormGroup>
                             <FormControlLabel
-                                control={<Checkbox checked={alive} onChange={handleChange} name="alive" />}
+                                control={<Checkbox checked={alive} onChange={handleChangeCheckBoxInput} name="alive" />}
                                 label="Alive"
                             />
                             <FormControlLabel
-                                control={<Checkbox checked={dead} onChange={handleChange} name="dead" />}
+                                control={<Checkbox checked={dead} onChange={handleChangeCheckBoxInput} name="dead" />}
                                 label="Dead"
                             />
                             <FormControlLabel
-                                control={<Checkbox checked={unknown} onChange={handleChange} name="unknown" />}
+                                control={<Checkbox checked={unknown} onChange={handleChangeCheckBoxInput} name="unknown" />}
                                 label="Unknown"
                             />
                         </FormGroup>

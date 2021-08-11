@@ -1,16 +1,17 @@
 # week-3-react-dilan-dogan
-3.Hafta React Ödevi
+Week3 React Homework-Dilan Doğan
+
+
 ## İnstallation
 
-Öncelikle projeyi clonelayın
+First clone the project
 ```
 git clone https://github.com/Trendyol-Front-End-Bootcamp/week-3-react-dilan-dogan.git
 ```
 
-
 ## Usage
 
-Projeyi cloneladıktan sonra visual stuio code programında açınız
+After cloning the project, open it in visual studio code program
 
 
 ```

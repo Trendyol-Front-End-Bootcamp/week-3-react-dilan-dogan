@@ -77,7 +77,6 @@ function CardComp({ image, name, gender, type, status, location,episode }) {
         fetch('https://rickandmortyapi.com/api/episode/' + episodesStr)
             .then((response) => response.json())
             .then(function (episodeData) {
-                console.log(episodeData)
                 setEpisodes(episodeData)
             });
 
